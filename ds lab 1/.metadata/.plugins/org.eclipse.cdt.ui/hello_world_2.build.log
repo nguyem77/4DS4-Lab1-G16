@@ -1,0 +1,11 @@
+15:23:39 **** Incremental Build of configuration Debug for project hello_world_2 ****
+make -r -j4 all 
+make[1]: Nothing to be done for 'main-build'.
+Performing post-build steps
+arm-none-eabi-size "hello_world_2.axf"; # arm-none-eabi-objcopy -v -O binary "hello_world_2.axf" "hello_world_2.bin" ; # checksum -p MK66FN2M0xxx18 -d "hello_world_2.bin";
+   text	   data	    bss	    dec	    hex	filename
+  17792	     16	   8432	  26240	   6680	hello_world_2.axf
+ 
+
+15:23:40 Build Finished. 0 errors, 0 warnings. (took 203ms)
+

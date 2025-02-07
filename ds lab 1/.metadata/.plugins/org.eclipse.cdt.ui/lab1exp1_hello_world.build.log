@@ -1,0 +1,11 @@
+15:45:09 **** Incremental Build of configuration Debug for project lab1exp1_hello_world ****
+make -r -j4 all 
+make[1]: Nothing to be done for 'main-build'.
+Performing post-build steps
+arm-none-eabi-size "lab1exp1_hello_world.axf"; # arm-none-eabi-objcopy -v -O binary "lab1exp1_hello_world.axf" "lab1exp1_hello_world.bin" ; # checksum -p MK66FN2M0xxx18 -d "lab1exp1_hello_world.bin";
+   text	   data	    bss	    dec	    hex	filename
+  19272	     24	   8432	  27728	   6c50	lab1exp1_hello_world.axf
+ 
+
+15:45:09 Build Finished. 0 errors, 0 warnings. (took 207ms)
+

@@ -1,0 +1,65 @@
+15:28:50 **** Incremental Build of configuration Debug for project lab1exp1_hello_world ****
+make -r -j4 all 
+Building target: lab1exp1_hello_world.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="lab1exp1_hello_world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T lab1exp1_hello_world_Debug.ld -o "lab1exp1_hello_world.axf" ./utilities/fsl_assert.o ./utilities/fsl_debug_console.o  ./startup/startup_mk66f18.o  ./source/hello_world.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_common_arm.o ./drivers/fsl_ftfx_cache.o ./drivers/fsl_ftfx_controller.o ./drivers/fsl_ftfx_flash.o ./drivers/fsl_ftfx_flexnvm.o ./drivers/fsl_ftm.o ./drivers/fsl_gpio.o ./drivers/fsl_lpuart.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o  ./device/system_MK66F18.o  ./component/uart/fsl_adapter_uart.o  ./component/lists/fsl_component_generic_list.o  ./board/board.o ./board/clock_config.o ./board/pin_mux.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:       19296 B         2 MB      0.92%
+      SRAM_UPPER:        8456 B       192 KB      4.30%
+      SRAM_LOWER:          0 GB        64 KB      0.00%
+        FLEX_RAM:          0 GB         4 KB      0.00%
+Finished building target: lab1exp1_hello_world.axf
+ 
+Performing post-build steps
+arm-none-eabi-size "lab1exp1_hello_world.axf"; # arm-none-eabi-objcopy -v -O binary "lab1exp1_hello_world.axf" "lab1exp1_hello_world.bin" ; # checksum -p MK66FN2M0xxx18 -d "lab1exp1_hello_world.bin";
+   text	   data	    bss	    dec	    hex	filename
+  19272	     24	   8432	  27728	   6c50	lab1exp1_hello_world.axf
+ 
+15:41:29 **** Incremental Build of configuration Debug for project lab1exp1_hello_world ****
+make -r -j4 all 
+make[1]: Nothing to be done for 'main-build'.
+Performing post-build steps
+arm-none-eabi-size "lab1exp1_hello_world.axf"; # arm-none-eabi-objcopy -v -O binary "lab1exp1_hello_world.axf" "lab1exp1_hello_world.bin" ; # checksum -p MK66FN2M0xxx18 -d "lab1exp1_hello_world.bin";
+   text	   data	    bss	    dec	    hex	filename
+  19272	     24	   8432	  27728	   6c50	lab1exp1_hello_world.axf
+ 
+15:41:59 **** Incremental Build of configuration Debug for project lab1exp1_hello_world ****
+make -r -j4 all 
+make[1]: Nothing to be done for 'main-build'.
+Performing post-build steps
+arm-none-eabi-size "lab1exp1_hello_world.axf"; # arm-none-eabi-objcopy -v -O binary "lab1exp1_hello_world.axf" "lab1exp1_hello_world.bin" ; # checksum -p MK66FN2M0xxx18 -d "lab1exp1_hello_world.bin";
+   text	   data	    bss	    dec	    hex	filename
+  19272	     24	   8432	  27728	   6c50	lab1exp1_hello_world.axf
+ 
+15:42:07 **** Incremental Build of configuration Debug for project lab1exp1_hello_world ****
+make -r -j4 all 
+make[1]: Nothing to be done for 'main-build'.
+Performing post-build steps
+arm-none-eabi-size "lab1exp1_hello_world.axf"; # arm-none-eabi-objcopy -v -O binary "lab1exp1_hello_world.axf" "lab1exp1_hello_world.bin" ; # checksum -p MK66FN2M0xxx18 -d "lab1exp1_hello_world.bin";
+   text	   data	    bss	    dec	    hex	filename
+  19272	     24	   8432	  27728	   6c50	lab1exp1_hello_world.axf
+ 
+15:42:36 **** Incremental Build of configuration Debug for project lab1exp1_hello_world ****
+make -r -j4 all 
+make[1]: Nothing to be done for 'main-build'.
+Performing post-build steps
+arm-none-eabi-size "lab1exp1_hello_world.axf"; # arm-none-eabi-objcopy -v -O binary "lab1exp1_hello_world.axf" "lab1exp1_hello_world.bin" ; # checksum -p MK66FN2M0xxx18 -d "lab1exp1_hello_world.bin";
+   text	   data	    bss	    dec	    hex	filename
+  19272	     24	   8432	  27728	   6c50	lab1exp1_hello_world.axf
+ 
+15:43:05 **** Incremental Build of configuration Debug for project lab1exp1_hello_world ****
+make -r -j4 all 
+make[1]: Nothing to be done for 'main-build'.
+Performing post-build steps
+arm-none-eabi-size "lab1exp1_hello_world.axf"; # arm-none-eabi-objcopy -v -O binary "lab1exp1_hello_world.axf" "lab1exp1_hello_world.bin" ; # checksum -p MK66FN2M0xxx18 -d "lab1exp1_hello_world.bin";
+   text	   data	    bss	    dec	    hex	filename
+  19272	     24	   8432	  27728	   6c50	lab1exp1_hello_world.axf
+ 
+15:45:09 **** Incremental Build of configuration Debug for project lab1exp1_hello_world ****
+make -r -j4 all 
+make[1]: Nothing to be done for 'main-build'.
+Performing post-build steps
+arm-none-eabi-size "lab1exp1_hello_world.axf"; # arm-none-eabi-objcopy -v -O binary "lab1exp1_hello_world.axf" "lab1exp1_hello_world.bin" ; # checksum -p MK66FN2M0xxx18 -d "lab1exp1_hello_world.bin";
+   text	   data	    bss	    dec	    hex	filename
+  19272	     24	   8432	  27728	   6c50	lab1exp1_hello_world.axf
+ 
